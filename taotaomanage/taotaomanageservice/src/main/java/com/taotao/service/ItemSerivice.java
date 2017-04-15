@@ -1,5 +1,6 @@
 package com.taotao.service;
 
+import com.taotao.commom.EuDataJson;
 import com.taotao.pojo.TbItem;
 
 /**
@@ -9,4 +10,5 @@ public interface ItemSerivice {
 
     TbItem getItemById(long id);
 
+    EuDataJson getItemList(Integer page, Integer rows);
 }

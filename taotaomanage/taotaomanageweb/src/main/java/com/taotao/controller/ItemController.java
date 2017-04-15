@@ -1,5 +1,6 @@
 package com.taotao.controller;
 
+import com.taotao.commom.EuDataJson;
 import com.taotao.pojo.TbItem;
 import com.taotao.service.ItemSerivice;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,6 +33,14 @@ public class ItemController {
 
         return item;
 
+    }
+
+    @RequestMapping("/item/list")
+    @ResponseBody
+    public  EuDataJson getItemList(Integer page, Integer rows){
+        EuDataJson euDataJson =  itemSerivice.getItemList(page,rows);
+
+        return euDataJson;
     }
 
 }

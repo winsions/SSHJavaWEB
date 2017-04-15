@@ -7,6 +7,8 @@
           <element id="module-output" name="taotaomanageweb" />
         </element>
         <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: junit:junit:4.12" />
+          <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.3" />
           <element id="archive" name="taotao-manage-service-1.0-SNAPSHOT.jar">
             <element id="module-output" name="taotaomanageservice" />
           </element>
@@ -15,6 +17,12 @@
           </element>
           <element id="archive" name="taotao-manage-controller-1.0-SNAPSHOT.jar">
             <element id="module-output" name="taotaomanagecontroller" />
+          </element>
+          <element id="library" level="project" name="Maven: org.junit.jupiter:junit-jupiter-api:5.0.0-M4" />
+          <element id="library" level="project" name="Maven: org.opentest4j:opentest4j:1.0.0-M2" />
+          <element id="library" level="project" name="Maven: org.junit.platform:junit-platform-commons:1.0.0-M4" />
+          <element id="archive" name="taotao-common-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="taotaocommon" />
           </element>
           <element id="library" level="project" name="Maven: joda-time:joda-time:2.5" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.3.2" />
@@ -33,6 +41,8 @@
           <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.2.8" />
           <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.2.2" />
           <element id="library" level="project" name="Maven: com.github.miemiedev:mybatis-paginator:1.2.15" />
+          <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:5.0.0" />
+          <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:0.9.5" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.32" />
           <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.9" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.1.3.RELEASE" />
