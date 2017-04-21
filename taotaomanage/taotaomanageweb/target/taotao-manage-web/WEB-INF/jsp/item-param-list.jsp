@@ -17,6 +17,12 @@
 </div>
 <script>
 
+    $("#itemEditWindow").window({
+        onLoad :function() {
+            //回显数据
+            var data = $("#itemList").datagrid("getSelections")[0];
+        }
+    })
 	function formatItemParamData(value , index){
 		var json = JSON.parse(value);
 		var array = [];

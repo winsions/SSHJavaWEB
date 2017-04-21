@@ -33,4 +33,11 @@ public interface TbItemParamMapper {
     int updateByPrimaryKeyWithBLOBs(TbItemParam record);
 
     int updateByPrimaryKey(TbItemParam record);
+
+    //多表关联
+    List<TbItemParam> selectItemParamAndItemCat(TbItemParamExample example);
+
+    //删除
+    void  deleteByIds(String[] idItem);
+
 }

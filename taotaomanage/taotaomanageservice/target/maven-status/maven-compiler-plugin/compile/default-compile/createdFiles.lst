@@ -1,3 +1,6 @@
-com/taotao/service/ItemServiceImpl/ItemSeriviceImpl.class
-UserService.class
 com/taotao/service/ItemSerivice.class
+com/taotao/service/PictureService.class
+com/taotao/service/ItemServiceImpl/PictureServiceImpl.class
+com/taotao/service/ItemCatService.class
+com/taotao/service/ItemServiceImpl/ItemSeriviceImpl.class
+com/taotao/service/ItemServiceImpl/ItemcatServiceImpl.class
