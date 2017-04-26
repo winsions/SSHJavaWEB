@@ -88,7 +88,7 @@ public class ItemController {
      * @param itemId
      * @return
      */
-    @RequestMapping("/rest/item/param/item/query//{itemId}")
+    @RequestMapping("/rest/item/param/item/query/{itemId}")
     @ResponseBody
     public TaotaoResult getItemQuerybyId(@PathVariable Long itemId){
         TaotaoResult taotaoResult =itemSerivice.getItemQuerybyId(itemId);

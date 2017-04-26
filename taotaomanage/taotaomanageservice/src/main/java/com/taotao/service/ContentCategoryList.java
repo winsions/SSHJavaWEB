@@ -1,7 +1,9 @@
 package com.taotao.service;
 
 import com.taotao.commom.EuTreeNode;
+import com.taotao.commom.TaotaoResult;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -12,5 +14,13 @@ public interface ContentCategoryList {
 
 //    获取分类列表
 
-    List<EuTreeNode> getContentCategoryList();
+    List<EuTreeNode> getContentCategoryList(Long parentId) throws Exception;
+
+
+    TaotaoResult createNewNode(Long parentId,String text) throws Exception;
+
+
+    TaotaoResult updateContentCategory(Long id, String name);
+
+    TaotaoResult deleteContentCategory(String data);
 }
