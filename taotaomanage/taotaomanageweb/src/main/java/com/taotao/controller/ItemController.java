@@ -139,7 +139,7 @@ public class ItemController {
      * @param ids
      * @return
      */
-    @RequestMapping("/rest/item/reshelf")
+    @RequestMapping("/rest/item/reshel")
     @ResponseBody
     public TaotaoResult reshelfItemById(String ids){
         String[] idArray = ids.split(",");
